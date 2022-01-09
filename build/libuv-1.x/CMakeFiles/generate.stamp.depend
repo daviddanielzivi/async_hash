@@ -1,0 +1,17 @@
+# CMake generation dependency list for this directory.
+D:/Program Files/CMake/share/cmake-3.22/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+D:/Program Files/CMake/share/cmake-3.22/Modules/CMakeDependentOption.cmake
+D:/Program Files/CMake/share/cmake-3.22/Modules/CMakePackageConfigHelpers.cmake
+D:/Program Files/CMake/share/cmake-3.22/Modules/CTest.cmake
+D:/Program Files/CMake/share/cmake-3.22/Modules/CTestTargets.cmake
+D:/Program Files/CMake/share/cmake-3.22/Modules/CTestUseLaunchers.cmake
+D:/Program Files/CMake/share/cmake-3.22/Modules/CheckCCompilerFlag.cmake
+D:/Program Files/CMake/share/cmake-3.22/Modules/CheckCSourceCompiles.cmake
+D:/Program Files/CMake/share/cmake-3.22/Modules/DartConfiguration.tcl.in
+D:/Program Files/CMake/share/cmake-3.22/Modules/GNUInstallDirs.cmake
+D:/Program Files/CMake/share/cmake-3.22/Modules/Internal/CheckCompilerFlag.cmake
+D:/Program Files/CMake/share/cmake-3.22/Modules/Internal/CheckSourceCompiles.cmake
+D:/Program Files/CMake/share/cmake-3.22/Modules/WriteBasicConfigVersionFile.cmake
+D:/myfiles/training/libuv-1.x/libuv-1.x/CMakeLists.txt
+D:/myfiles/training/libuv-1.x/libuv-1.x/libuv-static.pc.in
+D:/myfiles/training/libuv-1.x/libuv-1.x/libuv.pc.in

@@ -1,0 +1,25 @@
+cmake_minimum_required(VERSION 3.4)
+project(test_async LANGUAGES C)
+
+#include(libuv-1.x)
+add_subdirectory(libuv-1.x)
+add_subdirectory(mbedtls-3.1.0)
+set(sources
+    hash.c
+    sync_read.c
+    read_only.c
+    hash_only.c 
+    async_read_1.c
+    async_read_2.c
+    async_read_3.c    
+    timer_worker.c 
+    main.c 
+    
+)
+#target_include_directories()
+add_executable(
+    test  
+    ${sources}
+)
+  target_link_libraries(test uv_a)
+  target_link_libraries(test mbedcrypto)

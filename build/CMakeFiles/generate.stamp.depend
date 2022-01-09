@@ -1,0 +1,19 @@
+# CMake generation dependency list for this directory.
+D:/Program Files/CMake/share/cmake-3.22/Modules/CMakeCInformation.cmake
+D:/Program Files/CMake/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake
+D:/Program Files/CMake/share/cmake-3.22/Modules/CMakeGenericSystem.cmake
+D:/Program Files/CMake/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake
+D:/Program Files/CMake/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake
+D:/Program Files/CMake/share/cmake-3.22/Modules/CMakeRCInformation.cmake
+D:/Program Files/CMake/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake
+D:/Program Files/CMake/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake
+D:/Program Files/CMake/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+D:/Program Files/CMake/share/cmake-3.22/Modules/Compiler/MSVC-C.cmake
+D:/Program Files/CMake/share/cmake-3.22/Modules/Platform/Windows-MSVC-C.cmake
+D:/Program Files/CMake/share/cmake-3.22/Modules/Platform/Windows-MSVC.cmake
+D:/Program Files/CMake/share/cmake-3.22/Modules/Platform/Windows.cmake
+D:/Program Files/CMake/share/cmake-3.22/Modules/Platform/WindowsPaths.cmake
+D:/myfiles/training/libuv-1.x/CMakeLists.txt
+D:/myfiles/training/libuv-1.x/build/CMakeFiles/3.22.1/CMakeCCompiler.cmake
+D:/myfiles/training/libuv-1.x/build/CMakeFiles/3.22.1/CMakeRCCompiler.cmake
+D:/myfiles/training/libuv-1.x/build/CMakeFiles/3.22.1/CMakeSystem.cmake

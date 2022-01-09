@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\programs\pkey\pk_sign.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\programs\pkey\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="D:\myfiles\training\libuv-1.x\build\mbedtls-3.1.0\mbedtls_test.dir\$(Configuration)\asn1_helpers.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\myfiles\training\libuv-1.x\build\mbedtls-3.1.0\mbedtls_test.dir\$(Configuration)\certs.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\myfiles\training\libuv-1.x\build\mbedtls-3.1.0\mbedtls_test.dir\$(Configuration)\hash.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\myfiles\training\libuv-1.x\build\mbedtls-3.1.0\mbedtls_test.dir\$(Configuration)\platform_builtin_keys.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\myfiles\training\libuv-1.x\build\mbedtls-3.1.0\mbedtls_test.dir\$(Configuration)\test_driver_aead.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\myfiles\training\libuv-1.x\build\mbedtls-3.1.0\mbedtls_test.dir\$(Configuration)\test_driver_cipher.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\myfiles\training\libuv-1.x\build\mbedtls-3.1.0\mbedtls_test.dir\$(Configuration)\test_driver_key_management.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\myfiles\training\libuv-1.x\build\mbedtls-3.1.0\mbedtls_test.dir\$(Configuration)\test_driver_mac.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\myfiles\training\libuv-1.x\build\mbedtls-3.1.0\mbedtls_test.dir\$(Configuration)\test_driver_signature.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\myfiles\training\libuv-1.x\build\mbedtls-3.1.0\mbedtls_test.dir\$(Configuration)\fake_external_rng_for_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\myfiles\training\libuv-1.x\build\mbedtls-3.1.0\mbedtls_test.dir\$(Configuration)\helpers.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\myfiles\training\libuv-1.x\build\mbedtls-3.1.0\mbedtls_test.dir\$(Configuration)\psa_crypto_helpers.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\myfiles\training\libuv-1.x\build\mbedtls-3.1.0\mbedtls_test.dir\$(Configuration)\psa_exercise_key.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\myfiles\training\libuv-1.x\build\mbedtls-3.1.0\mbedtls_test.dir\$(Configuration)\random.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\myfiles\training\libuv-1.x\build\mbedtls-3.1.0\mbedtls_test.dir\$(Configuration)\threading_helpers.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{D6BEB7A7-8435-353E-8987-B9B3B73739BB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A855BB6B-8347-3492-9D7B-B8451D0C01E8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

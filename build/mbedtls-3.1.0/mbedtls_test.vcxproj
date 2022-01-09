@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0D1BDD61-18DF-36B7-A3F7-2F5583E96660}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>mbedtls_test</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">mbedtls_test.dir\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">mbedtls_test.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">mbedtls_test</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">mbedtls_test.dir\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">mbedtls_test.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">mbedtls_test</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">mbedtls_test.dir\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">mbedtls_test.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">mbedtls_test</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">mbedtls_test.dir\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">mbedtls_test.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">mbedtls_test</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\tests\include;D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\include;D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\library;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\tests\include;D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\include;D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\library;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\tests\include;D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\include;D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\library;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\tests\include;D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\include;D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\library;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\tests\include;D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\include;D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\library;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\tests\include;D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\include;D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\library;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\tests\include;D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\include;D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\library;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\tests\include;D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\include;D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\library;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\tests\include;D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\include;D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\library;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\tests\include;D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\include;D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\library;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\tests\include;D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\include;D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\library;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\tests\include;D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\include;D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\library;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/myfiles/training/libuv-1.x/mbedtls-3.1.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/myfiles/training/libuv-1.x -BD:/myfiles/training/libuv-1.x/build --check-stamp-file D:/myfiles/training/libuv-1.x/build/mbedtls-3.1.0/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Program Files\CMake\share\cmake-3.22\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\Program Files\CMake\share\cmake-3.22\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\CheckCCompilerFlag.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\FindPython\Support.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\FindPython3.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\WriteBasicConfigVersionFile.cmake;D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\cmake\MbedTLSConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\myfiles\training\libuv-1.x\build\mbedtls-3.1.0\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/myfiles/training/libuv-1.x/mbedtls-3.1.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/myfiles/training/libuv-1.x -BD:/myfiles/training/libuv-1.x/build --check-stamp-file D:/myfiles/training/libuv-1.x/build/mbedtls-3.1.0/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Program Files\CMake\share\cmake-3.22\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\Program Files\CMake\share\cmake-3.22\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\CheckCCompilerFlag.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\FindPython\Support.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\FindPython3.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\WriteBasicConfigVersionFile.cmake;D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\cmake\MbedTLSConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\myfiles\training\libuv-1.x\build\mbedtls-3.1.0\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/myfiles/training/libuv-1.x/mbedtls-3.1.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/myfiles/training/libuv-1.x -BD:/myfiles/training/libuv-1.x/build --check-stamp-file D:/myfiles/training/libuv-1.x/build/mbedtls-3.1.0/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Program Files\CMake\share\cmake-3.22\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\Program Files\CMake\share\cmake-3.22\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\CheckCCompilerFlag.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\FindPython\Support.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\FindPython3.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\WriteBasicConfigVersionFile.cmake;D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\cmake\MbedTLSConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\myfiles\training\libuv-1.x\build\mbedtls-3.1.0\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/myfiles/training/libuv-1.x/mbedtls-3.1.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/myfiles/training/libuv-1.x -BD:/myfiles/training/libuv-1.x/build --check-stamp-file D:/myfiles/training/libuv-1.x/build/mbedtls-3.1.0/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Program Files\CMake\share\cmake-3.22\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\Program Files\CMake\share\cmake-3.22\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\CheckCCompilerFlag.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\FindPython\Support.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\FindPython3.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\WriteBasicConfigVersionFile.cmake;D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\cmake\MbedTLSConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\myfiles\training\libuv-1.x\build\mbedtls-3.1.0\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\tests\src\asn1_helpers.c" />
+    <ClCompile Include="D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\tests\src\certs.c" />
+    <ClCompile Include="D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\tests\src\drivers\hash.c" />
+    <ClCompile Include="D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\tests\src\drivers\platform_builtin_keys.c" />
+    <ClCompile Include="D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\tests\src\drivers\test_driver_aead.c" />
+    <ClCompile Include="D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\tests\src\drivers\test_driver_cipher.c" />
+    <ClCompile Include="D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\tests\src\drivers\test_driver_key_management.c" />
+    <ClCompile Include="D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\tests\src\drivers\test_driver_mac.c" />
+    <ClCompile Include="D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\tests\src\drivers\test_driver_signature.c" />
+    <ClCompile Include="D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\tests\src\fake_external_rng_for_test.c" />
+    <ClCompile Include="D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\tests\src\helpers.c" />
+    <ClCompile Include="D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\tests\src\psa_crypto_helpers.c" />
+    <ClCompile Include="D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\tests\src\psa_exercise_key.c" />
+    <ClCompile Include="D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\tests\src\random.c" />
+    <ClCompile Include="D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\tests\src\threading_helpers.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\myfiles\training\libuv-1.x\build\ZERO_CHECK.vcxproj">
+      <Project>{9D7FC8D0-7849-3CA0-BFB5-912F64375A75}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

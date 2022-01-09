@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6FF99244-DF52-3F44-9C15-9D2484D5B532}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ssl_server2</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\myfiles\training\libuv-1.x\build\mbedtls-3.1.0\programs\ssl\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ssl_server2.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ssl_server2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\myfiles\training\libuv-1.x\build\mbedtls-3.1.0\programs\ssl\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ssl_server2.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ssl_server2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\myfiles\training\libuv-1.x\build\mbedtls-3.1.0\programs\ssl\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">ssl_server2.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">ssl_server2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\myfiles\training\libuv-1.x\build\mbedtls-3.1.0\programs\ssl\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">ssl_server2.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">ssl_server2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\programs\ssl\..\..\tests\include;D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\programs\ssl\..\test;D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\programs\ssl\..\..\tests\include;D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\programs\ssl\..\test;D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\programs\ssl\..\..\tests\include;D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\programs\ssl\..\test;D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\library\Debug\mbedtls.lib;..\..\library\Debug\mbedx509.lib;..\..\library\Debug\mbedcrypto.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/myfiles/training/libuv-1.x/build/mbedtls-3.1.0/programs/ssl/Debug/ssl_server2.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/myfiles/training/libuv-1.x/build/mbedtls-3.1.0/programs/ssl/Debug/ssl_server2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\programs\ssl\..\..\tests\include;D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\programs\ssl\..\test;D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\programs\ssl\..\..\tests\include;D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\programs\ssl\..\test;D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\programs\ssl\..\..\tests\include;D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\programs\ssl\..\test;D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\library\Release\mbedtls.lib;..\..\library\Release\mbedx509.lib;..\..\library\Release\mbedcrypto.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/myfiles/training/libuv-1.x/build/mbedtls-3.1.0/programs/ssl/Release/ssl_server2.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/myfiles/training/libuv-1.x/build/mbedtls-3.1.0/programs/ssl/Release/ssl_server2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\programs\ssl\..\..\tests\include;D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\programs\ssl\..\test;D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\programs\ssl\..\..\tests\include;D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\programs\ssl\..\test;D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\programs\ssl\..\..\tests\include;D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\programs\ssl\..\test;D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\library\MinSizeRel\mbedtls.lib;..\..\library\MinSizeRel\mbedx509.lib;..\..\library\MinSizeRel\mbedcrypto.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/myfiles/training/libuv-1.x/build/mbedtls-3.1.0/programs/ssl/MinSizeRel/ssl_server2.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/myfiles/training/libuv-1.x/build/mbedtls-3.1.0/programs/ssl/MinSizeRel/ssl_server2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\programs\ssl\..\..\tests\include;D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\programs\ssl\..\test;D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\programs\ssl\..\..\tests\include;D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\programs\ssl\..\test;D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\programs\ssl\..\..\tests\include;D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\programs\ssl\..\test;D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\library\RelWithDebInfo\mbedtls.lib;..\..\library\RelWithDebInfo\mbedx509.lib;..\..\library\RelWithDebInfo\mbedcrypto.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/myfiles/training/libuv-1.x/build/mbedtls-3.1.0/programs/ssl/RelWithDebInfo/ssl_server2.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/myfiles/training/libuv-1.x/build/mbedtls-3.1.0/programs/ssl/RelWithDebInfo/ssl_server2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\programs\ssl\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/myfiles/training/libuv-1.x/mbedtls-3.1.0/programs/ssl/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/myfiles/training/libuv-1.x -BD:/myfiles/training/libuv-1.x/build --check-stamp-file D:/myfiles/training/libuv-1.x/build/mbedtls-3.1.0/programs/ssl/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Program Files\CMake\share\cmake-3.22\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFile.c.in;D:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\FindThreads.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\myfiles\training\libuv-1.x\build\mbedtls-3.1.0\programs\ssl\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/myfiles/training/libuv-1.x/mbedtls-3.1.0/programs/ssl/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/myfiles/training/libuv-1.x -BD:/myfiles/training/libuv-1.x/build --check-stamp-file D:/myfiles/training/libuv-1.x/build/mbedtls-3.1.0/programs/ssl/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Program Files\CMake\share\cmake-3.22\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFile.c.in;D:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\FindThreads.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\myfiles\training\libuv-1.x\build\mbedtls-3.1.0\programs\ssl\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/myfiles/training/libuv-1.x/mbedtls-3.1.0/programs/ssl/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/myfiles/training/libuv-1.x -BD:/myfiles/training/libuv-1.x/build --check-stamp-file D:/myfiles/training/libuv-1.x/build/mbedtls-3.1.0/programs/ssl/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Program Files\CMake\share\cmake-3.22\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFile.c.in;D:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\FindThreads.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\myfiles\training\libuv-1.x\build\mbedtls-3.1.0\programs\ssl\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/myfiles/training/libuv-1.x/mbedtls-3.1.0/programs/ssl/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/myfiles/training/libuv-1.x -BD:/myfiles/training/libuv-1.x/build --check-stamp-file D:/myfiles/training/libuv-1.x/build/mbedtls-3.1.0/programs/ssl/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Program Files\CMake\share\cmake-3.22\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFile.c.in;D:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\FindThreads.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\myfiles\training\libuv-1.x\build\mbedtls-3.1.0\programs\ssl\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\programs\ssl\ssl_server2.c" />
+    <Object Include="D:\myfiles\training\libuv-1.x\build\mbedtls-3.1.0\mbedtls_test.dir\$(Configuration)\asn1_helpers.obj" />
+    <Object Include="D:\myfiles\training\libuv-1.x\build\mbedtls-3.1.0\mbedtls_test.dir\$(Configuration)\certs.obj" />
+    <Object Include="D:\myfiles\training\libuv-1.x\build\mbedtls-3.1.0\mbedtls_test.dir\$(Configuration)\hash.obj" />
+    <Object Include="D:\myfiles\training\libuv-1.x\build\mbedtls-3.1.0\mbedtls_test.dir\$(Configuration)\platform_builtin_keys.obj" />
+    <Object Include="D:\myfiles\training\libuv-1.x\build\mbedtls-3.1.0\mbedtls_test.dir\$(Configuration)\test_driver_aead.obj" />
+    <Object Include="D:\myfiles\training\libuv-1.x\build\mbedtls-3.1.0\mbedtls_test.dir\$(Configuration)\test_driver_cipher.obj" />
+    <Object Include="D:\myfiles\training\libuv-1.x\build\mbedtls-3.1.0\mbedtls_test.dir\$(Configuration)\test_driver_key_management.obj" />
+    <Object Include="D:\myfiles\training\libuv-1.x\build\mbedtls-3.1.0\mbedtls_test.dir\$(Configuration)\test_driver_mac.obj" />
+    <Object Include="D:\myfiles\training\libuv-1.x\build\mbedtls-3.1.0\mbedtls_test.dir\$(Configuration)\test_driver_signature.obj" />
+    <Object Include="D:\myfiles\training\libuv-1.x\build\mbedtls-3.1.0\mbedtls_test.dir\$(Configuration)\fake_external_rng_for_test.obj" />
+    <Object Include="D:\myfiles\training\libuv-1.x\build\mbedtls-3.1.0\mbedtls_test.dir\$(Configuration)\helpers.obj" />
+    <Object Include="D:\myfiles\training\libuv-1.x\build\mbedtls-3.1.0\mbedtls_test.dir\$(Configuration)\psa_crypto_helpers.obj" />
+    <Object Include="D:\myfiles\training\libuv-1.x\build\mbedtls-3.1.0\mbedtls_test.dir\$(Configuration)\psa_exercise_key.obj" />
+    <Object Include="D:\myfiles\training\libuv-1.x\build\mbedtls-3.1.0\mbedtls_test.dir\$(Configuration)\random.obj" />
+    <Object Include="D:\myfiles\training\libuv-1.x\build\mbedtls-3.1.0\mbedtls_test.dir\$(Configuration)\threading_helpers.obj" />
+    <ClCompile Include="D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\programs\ssl\ssl_test_lib.c" />
+    <ClInclude Include="D:\myfiles\training\libuv-1.x\mbedtls-3.1.0\programs\test\query_config.h" />
+    <ClCompile Include="D:\myfiles\training\libuv-1.x\build\mbedtls-3.1.0\programs\test\query_config.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\myfiles\training\libuv-1.x\build\ZERO_CHECK.vcxproj">
+      <Project>{9D7FC8D0-7849-3CA0-BFB5-912F64375A75}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\myfiles\training\libuv-1.x\build\mbedtls-3.1.0\library\mbedcrypto.vcxproj">
+      <Project>{4EC787CF-4CCF-3F15-B447-6D3777337D11}</Project>
+      <Name>mbedcrypto</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\myfiles\training\libuv-1.x\build\mbedtls-3.1.0\library\mbedtls.vcxproj">
+      <Project>{88C94442-7116-3EF7-934B-CBA3B4CE31DA}</Project>
+      <Name>mbedtls</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\myfiles\training\libuv-1.x\build\mbedtls-3.1.0\mbedtls_test.vcxproj">
+      <Project>{0D1BDD61-18DF-36B7-A3F7-2F5583E96660}</Project>
+      <Name>mbedtls_test</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\myfiles\training\libuv-1.x\build\mbedtls-3.1.0\library\mbedx509.vcxproj">
+      <Project>{963EF9F3-FCA7-3009-AD3B-CF92C9E25247}</Project>
+      <Name>mbedx509</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
